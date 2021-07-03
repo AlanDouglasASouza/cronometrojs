@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+
+    </header>
+    <section>
+        <div>
+           Número: <input type="number" name="txt" id="txt"> 
+           <input type="button" value="Gerar Tabuada" onclick="tabuada()" id="ger">
+        </div>
+        <div>
+            <p><select name="seleção" id="sel" size="10">
+                <option>Preencha um número a cima!</option>
+            </select></p>
+            <p><input type="button" value="Apagar" onclick="apagar()" id="apa"></p>
+        </div> 
+
+    </section>
+    <footer>
+        <p>&copy; AlanDouglasASouza</p>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
